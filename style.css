@@ -27,9 +27,18 @@ body::-webkit-scrollbar {
 }
 
 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     font-size: 24px;
     font-weight: bold;
     align-self: center;
+}
+
+.logo-img {
+    height: 64px;
+    width: 64px;
 }
 
 .links {
