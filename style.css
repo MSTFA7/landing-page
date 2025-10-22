@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 body {
     font-family: Roboto, sans-serif;
     height: 150vh;
     margin: 0;
     color: #F9FAF8;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .container {
@@ -188,10 +191,13 @@ a {
     width: 75vw;
     height: 10vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 90px;
     border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0 70px;
+    min-width: 800px;
 }
 
 .banner-header {
